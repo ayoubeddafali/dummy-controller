@@ -1,0 +1,7 @@
+apiVersion: interview.com/v1alpha1
+kind: Dummy
+metadata:
+  name: dummy-sample
+spec:
+  # Add fields here
+  message: "I'm just a dummy"

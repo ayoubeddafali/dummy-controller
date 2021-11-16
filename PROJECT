@@ -1,0 +1,15 @@
+domain: interview.com
+layout:
+- go.kubebuilder.io/v3
+projectName: tmp-homework-ae
+repo: interview.com/homework
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: interview.com
+  kind: Dummy
+  path: interview.com/homework/api/v1alpha1
+  version: v1alpha1
+version: "3"
